@@ -1,4 +1,4 @@
-# Exercise 3 (10P)
+# Exercise 2 (10P)
 
 1. Clone this repository to your local machine
 2. Create a new file in the repository called interact.py [1P]
