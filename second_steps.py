@@ -1,4 +1,4 @@
-# Exercise 3
+# Exercise 2
 
 # List of satellites
 satellites = ["MODIS","METEOSAT","LANDSAT","GOES"]
