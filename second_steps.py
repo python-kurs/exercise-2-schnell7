@@ -1,13 +1,21 @@
 # Exercise 2
 
-# List of satellites
-satellites = ["MODIS","METEOSAT","LANDSAT","GOES"]
+# Satellites:
+sat_database = {"METEOSAT" : 3000,
+                "LANDSAT"  : 30,
+                "MODIS"    : 500
+               }
 
-# The corresponding spatial resolutions in metres
-resolutions = [500,3000,30,2000]
+# The dictionary above contains the names and spatial resolutions of some satellite systems.
 
-# 1) Add the worldview satellite with its 0.31m resolution to the lists above [1P]
+# 1) Add the "GOES" and "worldview" satellites with their 2000/0.31m resolution to the dictionary [2P]
 
-# 2) Print "The satellite <satellite-name> has a spatial resolution of <resolution>" for each satellite with a resolution above 600m [4P]
+print("I have the following satellites in my database:")
 
-# Use loops and conditional cases for these tasks. Try to avoid direct index calls and redundancy.
+# 2) print out all satellite names contained in the dictionary [2P]
+
+# 3) Ask the user to enter the satellite name from which she/he would you like to know the resolution [2P]
+
+# 4) Check, if the satellite is in the database and inform the user, if it is not [2P]
+
+# 5) If the satellite name is in the database, print a meaningful message containing the satellite name and it's resolution [2P] 
