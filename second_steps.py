@@ -14,7 +14,7 @@ print("I have the following satellites in my database:")
 
 # 2) print out all satellite names contained in the dictionary [2P]
 
-# 3) Ask the user to enter the satellite name from which she/he would you like to know the resolution [2P]
+# 3) Ask the user to enter the satellite name from which she/he would like to know the resolution [2P]
 
 # 4) Check, if the satellite is in the database and inform the user, if it is not [2P]
 
