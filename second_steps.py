@@ -27,10 +27,15 @@ print(list(sat_database.keys()))
 # 5) If the satellite name is in the database, print a meaningful message containing the satellite name and it's resolution [2P] 
 
 #%%
-check = input()
-if check in list(sat_database):
-    print(" '%s' ist in Datenbank mit Aufloesung %f Meter" %(check ,sat_database[check]))
-else:
-    print("nicht in Datenbank, überprüfe gross kleinschreibung")
-    print(list(sat_database.keys()))
+def check_sat():
+    print("wem sei uffloesung willsten habbe?")
+    check = input()
+    if check in list(sat_database):
+        print(" '%s' ist in Datenbank mit Aufloesung %f Meter" %(check ,sat_database[check]))
+    else:
+        print("%s nicht in Datenbank, überprüfe gross kleinschreibung" %(check))
+        print("ich kenne:")
+        print(list(sat_database.keys()))
+#%%
+check_sat()
     
